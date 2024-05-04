@@ -31,7 +31,7 @@ npm install --save-dev tailwindcss-ram
 
 ### Specify Repeat Mode
 
-`auto-fill` is used by default, but you can choose to use `auto-fit`.
+you can choose repeat mode
 
 ```html
 <div class="grid cols-fill-52"></div>
