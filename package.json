@@ -1,0 +1,49 @@
+{
+  "name": "tailwindcss-ram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "author": "lixinxin <lxxorz@gamil.com>",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
+    "prepare": "husky install"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "grid",
+    "layout",
+    "ram",
+    "responsive",
+    "postcss",
+    "repeat",
+    "minmax",
+    "auto-fill",
+    "auto-fit",
+    "plugin",
+    "css"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.3"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "lint-staged": {
+    "*.**": "prettier --write"
+  }
+}

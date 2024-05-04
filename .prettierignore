@@ -1,0 +1,5 @@
+LICENSE
+.*ignore
+.husky/*
+*.sh
+pnpm-lock.yaml
