@@ -5,10 +5,10 @@ module.exports = plugin(
     matchUtilities(
       {
         "cols-fit": (value) => ({
-          "grid-template-columns": `repeat(auto-fill, minmax(${value}, 1fr))`,
+          "grid-template-columns": `repeat(auto-fit, minmax(${value}, 1fr))`,
         }),
         "cols-fill": (value) => ({
-          "grid-template-columns": `repeat(auto-fit, minmax(${value}, 1fr))`,
+          "grid-template-columns": `repeat(auto-fill, minmax(${value}, 1fr))`,
         }),
       },
       { values: theme("itemWidth") },
@@ -17,10 +17,10 @@ module.exports = plugin(
     matchUtilities(
       {
         "rows-fit": (value) => ({
-          "grid-template-rows": `repeat(auto-fill, minmax(${value}, 1fr))`,
+          "grid-template-rows": `repeat(auto-fit, minmax(${value}, 1fr))`,
         }),
         "rows-fill": (value) => ({
-          "grid-template-rows": `repeat(auto-fit, minmax(${value}, 1fr))`,
+          "grid-template-rows": `repeat(auto-fill, minmax(${value}, 1fr))`,
         }),
       },
       { values: theme("itemHeight") },
