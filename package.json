@@ -15,6 +15,7 @@
     "lint": "prettier --check .",
     "prepare": "husky install"
   },
+  "repository": "https://github.com/lxxorz/tailwindcss-ram",
   "files": [
     "index.js",
     "index.d.ts"
