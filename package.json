@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "types": "index.d.ts",
   "licenses": [
     {
       "type": "MIT",
       "url": "https://opensource.org/licenses/MIT"
     }
   ],
-  "author": "lixinxin <lxxorz@gamil.com>",
+  "author": "bjorn <lxxorz@gamil.com>",
   "scripts": {
     "format": "prettier --write .",
     "lint": "prettier --check .",
