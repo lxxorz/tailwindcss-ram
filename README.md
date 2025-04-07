@@ -10,6 +10,12 @@ read [repeat-auto-minmax](https://web.dev/patterns/layout/repeat-auto-minmax?hl=
 npm install --save-dev tailwindcss-ram
 ```
 
+if you use tailwindcss v4, add plugin
+
+```css
+@plugin "tailwindcss-ram";
+```
+
 ## Usage
 
 ### Basic
