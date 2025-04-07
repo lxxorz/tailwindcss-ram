@@ -1,16 +1,16 @@
-# RAM(repeat auto minmax) for tailwindcss
+# RAM (repeat auto minmax) for Tailwind CSS
 
 ## What is RAM
 
-read [repeat-auto-minmax](https://web.dev/patterns/layout/repeat-auto-minmax?hl=zh-cn)
+Learn more about RAM: [repeat-auto-minmax](https://web.dev/patterns/layout/repeat-auto-minmax)
 
 ## Install
 
 ```sh
-npm install --save-dev tailwindcss-ram
+pnpm add --save-dev tailwindcss-ram
 ```
 
-if you use tailwindcss v4, add plugin
+If you are using Tailwind CSS v4, add the plugin in your `tailwind.config.js` or CSS file:
 
 ```css
 @plugin "tailwindcss-ram";
@@ -37,9 +37,11 @@ if you use tailwindcss v4, add plugin
 
 ### Specify Repeat Mode
 
-you can choose repeat mode
+You can choose the repeat mode (`auto-fit` or `auto-fill`):
 
 ```html
 <div class="grid cols-fill-52"></div>
+<!-- Uses auto-fill -->
 <div class="grid cols-fit-52"></div>
+<!-- Uses auto-fit -->
 ```
